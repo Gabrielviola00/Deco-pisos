@@ -1,0 +1,141 @@
+.main{
+    margin-top: rem;
+    
+}
+
+.imagenes{
+    object-fit: contain;
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+.imagenes-numero{
+    object-fit: contain;
+    width: 0rem;
+}
+
+
+.quienes-somos{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+
+.pie-de-pagina{
+    margin-top: 3rem;
+}
+
+@media (max-width:460px){
+    .quienes-somos{
+        margin-left: 13rem;
+    }
+
+    .articulitos{
+        width: 25rem;
+        
+        margin-top: 2rem;
+        margin-left: 9rem;
+    }
+
+    .imagenes{
+        object-fit: contain;
+        width: 10rem;
+        margin-left: 14rem;
+    }
+    
+}
+
+@media (min-width: 461px) and (max-width: 574px){
+    
+
+    .quienes-somos{
+        margin-left: 10rem;
+    }
+    .articulitos{
+        width: 25rem;
+        
+        margin-top: 2rem;
+        margin-left: 9rem;
+    }
+
+    .main{
+        margin-left: -4rem;
+    }
+
+    .imagenes{
+        object-fit: contain;
+        width: 10rem;
+        margin-left: 14rem;
+    }
+    
+    
+    
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+
+    .header{
+        margin-left: -70px;
+    }
+
+    .main{
+        margin-left: 3rem;
+        width: 100%;
+    }
+
+    .carrusel{
+        margin: 3rem;
+        margin-top: 20rem;
+    }
+
+    .quienes-somos{
+        margin-left: 2rem;
+    }
+
+    .section{
+        margin-left: -222rem;
+        
+    }
+
+    .pie-de-pagina{
+
+        margin-left: 2rem;
+
+    }
+} 
+
+@media (min-width: 768px) and (max-width: 991px){
+    .main{
+        margin-top: 17rem;
+    
+        
+    }
+
+    .carrusel{
+        margin-left: -0.1rem;
+    }
+}
+
+    .section{
+        margin-left: 3rem;
+    }
+
+
+@media (min-width: 992px ){
+    .whatsap{
+        margin-left: 15px;
+    }
+    .logo-pie{
+        margin-right: -3rem;
+    }
+
+    .carrusel{
+        margin-left: 15rem;
+    }
+
+    .main{
+            margin-top: 1rem
+    } ;
+
+    
+}

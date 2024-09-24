@@ -1,0 +1,388 @@
+/* encabezado*/
+.header{
+    border-bottom: 0.5rem solid;
+    border-color: #ECB159;
+    height: 13rem;
+    height: 13rem;
+    
+}
+
+.logo{
+    width: 11rem;
+    object-fit: contain;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+.lista{
+    list-style-type: none;
+    margin-left: -4rem;
+}
+
+
+
+
+
+.seccion-pisos{
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-family:  "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.seccion-pisos:hover{
+    border-bottom: 0.5rem solid;
+    border-color:#ECB159;
+    
+}
+
+.seccion-productos{
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-family:  "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.seccion-productos:hover{
+    border-bottom: 0.5rem solid;
+    border-color: #ECB159;
+    
+}
+.seccion-servicios{
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-family:  "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.seccion-servicios:hover{
+    border-bottom: 0.5rem solid;
+    border-color: #ECB159;
+    
+}
+
+.seccion-trabajos{
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-family:  "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.seccion-trabajos:hover{
+    border-bottom: 0.5rem solid;
+    border-color: #ECB159;
+    
+}
+/* encabezado*/
+
+/*CUERPO*/
+
+
+.carrusel{
+    margin-top: 2rem;
+    margin-left: 16rem;
+    padding-top: 5rem;
+    width: 50rem;
+    height: 39rem;
+    background-color: #B67352;
+    border: 0.5rem solid;
+    border-color: #ECB159;
+}
+
+
+
+.imagen-carrusel{
+    width: 80%;
+    height: 15%;
+    object-fit: contain;
+    border: 0.5rem solid;
+    border-color: #ECB159;
+    
+    
+}
+
+.imagen-carrusel-pvc{
+    width: 83%;
+    height: 15%;
+    object-fit: contain;
+    border: 0.5rem solid;
+    border-color: #ECB159;
+}
+
+
+.quienes-somos{
+    margin-top: 3rem;
+    text-align: center;
+    font-family:  "Libre Baskerville", serif;
+    font-size: 3rem;
+}
+
+.descripcion-somos{
+    height: 12rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family:  "Libre Baskerville", serif;
+    color: black;
+    border: 0.5rem solid;
+    border-color: #ECB159;
+    font-size: 1.1rem;
+    
+   
+}
+/*CUERPO*/
+
+/*PIE DE PAGINA*/
+
+
+.logo-email{
+    width: 4rem;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.correo{
+    margin-top: 1rem;
+}
+
+.logo-whatsapp{
+    width: 4rem;
+    object-fit: contain;
+    
+}
+.whatsap{
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+}
+
+.logo-pie{
+    width: 10rem;
+    object-fit: contain;
+}
+
+.contenedor-pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*PIE DE PAGINA*/
+
+/*@Medias Queries*/
+@media (max-width:574px){
+    
+
+    .header{
+        width: 50rem;
+       
+    }
+
+    .logo{
+        margin-left: 18rem;
+    }
+
+    
+    .carrusel{
+        height: 25rem;
+        margin-top: 35rem;
+        margin-left: 12rem;
+    }
+
+    .section-somos{
+        margin-top: 34rem;
+    }
+
+    .section-valores{
+        margin: 8rem;
+        margin-left: 4rem;
+        width: 100%;
+       
+        
+    }
+
+
+    .articulos-valores{
+        margin-top: 5rem;
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+
+    .imagenes{
+        margin-left: -0.1rem;
+    }
+
+    .pie-de-pagina{
+        margin-top: -3rem;
+        width: 50rem;
+        
+    }
+    .quienes-somos{
+        width: 35rem;
+        margin-left:5rem;
+    }
+    .descripcion-somos{
+        width: 36rem;
+        height: 20rem;
+        margin-left: 5rem;
+    }
+
+    .valores{
+        margin-top: 3rem;
+    }
+
+    
+
+    .logo-pie{
+        width: 0rem;
+    }
+
+    
+    .logo-email{
+        margin-left: 7rem;
+        width: 3rem;    
+    }
+
+    .logo-whatsapp{
+        margin-right: -2rem;
+    }
+    
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+    .header{
+        width: 50rem;
+        margin-left: -5rem;
+
+    }
+
+    .logo{
+        margin-left: 18rem;
+    }
+
+    
+    .carrusel{
+        margin-top: 20rem;
+        margin-left: 8rem;
+    }
+
+    .pie-de-pagina{
+        width: 50rem;
+     margin-left: rem;   
+    }
+    
+    .section-somos{
+        margin-left: -5rem;
+        margin-top: 20rem;
+    }
+
+    .quienes-somos{
+       text-align: center;
+    }
+    .descripcion-somos{
+        text-align: center;
+        width: 36rem;
+        height: 20rem;
+        
+    }
+
+    .section-valores{
+        margin-left: -3rem;
+        margin-top: 3rem;
+    }
+
+    .logo-pie{
+        width: 0;
+    }
+
+    .logo-email{
+        margin-left: 2rem;
+    }
+    }
+    .correo{
+        margin-right: -1rem;
+    }
+    .whatsap{
+        margin-left: -11rem;
+    }
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    
+    .secciones:hover{
+        border-color: white;
+    }
+
+    .logo{
+        margin-left: 17rem;
+    }
+
+    .quienes-somos{
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 200rem;
+        
+    }
+
+    .valores{
+        margin-top: 3rem;
+    }
+
+    .descripcion-somos{
+        height: 22rem;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .logo-pie{
+        width: 0rem;
+        margin-right: -2rem;
+    }
+    .logo-email{
+        width:2rem;
+        margin-right: 0.3rem;
+    }
+    .logo-whatsapp{
+        margin-right: -1rem;
+    }
+    .pie-de-pagina{
+        width: 47rem;
+    }
+    .whatsap{
+        margin-left: -6rem;
+    }
+    .correo{
+        width: 22rem;
+        margin-right: -6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    
+
+    .carrusel{
+        margin-top: 9rem;
+        margin-left: 6rem
+    }
+
+    .main{
+        margin-top: 6rem;
+    }
+
+    .descripcion-somos{
+        height: 15rem;
+    }
+
+    .pie-de-pagina {
+        margin-left: -2rem;
+    }
+
+    .whatsap{
+        margin-left: 15px;
+    }
+    .logo-pie{
+        margin-right: -3rem;
+    }
+}
+

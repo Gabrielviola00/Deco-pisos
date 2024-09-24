@@ -1,0 +1,268 @@
+.articulo-madera{
+    margin-top: 2rem;
+    width:80rem ;
+    height: 30rem;
+   
+    
+}
+
+.descripcion-madera{
+    text-align: center;
+    padding-left: 4rem;
+    margin-top: 1rem;
+}
+
+.parrafo-madera{
+    margin-top: 1.5rem;
+    font-size: 19px;
+}
+
+.titulo-madera{
+    font-size: 3rem;
+    
+}
+
+
+.imagen-madera{
+    width: 30rem;
+    border: 0.5rem solid #ECB159;
+    margin-top: 1rem;
+
+}
+
+.articulo-flotante{
+    margin-top: 2rem;
+    width:80rem ;
+    height: 30rem;
+   
+}
+
+.parrafo-flotante{
+    margin-top: 2rem;
+    margin-left: -2rem;
+    font-size: 19px;
+}
+
+.titulo-flotante{
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.imagen-flotante{
+    width: 30rem;
+    border: 0.5rem solid #ECB159 ;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+@media (max-width:574px){
+    .header{
+        padding-left:1rem ;
+        margin-bottom: 40rem;
+        width:90rem;
+    
+    }
+
+    .logo{
+
+        margin-left: 36rem;
+    }
+
+    .lista{
+       margin-left: -8rem;
+        border-bottom: 0.5rem solid #ECB159 ;
+    }
+    .seccion-trabajos{
+        padding-bottom: 2rem;
+    }
+
+    .main-madera{
+        margin-left:20px;
+    }
+    .articulo-madera{
+        height: 35rem;
+    }
+
+   .caja-madera{
+    width: 38rem;
+    height: 50rem;
+   }
+
+   .descripcion-madera{
+    width: 40rem;
+    height: 50rem;
+       }
+
+    .pie-de-pagina{
+       width: 60rem;
+        margin-top: 2rem;
+        margin-left: 11rem;
+    }
+
+   
+
+    
+
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+    .body{
+        margin-left: 4rem;
+    }
+
+    .header{
+        margin-left: 1px;
+        width: 73rem;
+        margin-bottom: 20rem;
+       
+        
+    }
+
+    .navegador{
+        border-bottom: 0.5rem solid #ECB159 ;
+    }
+
+    .lista{
+
+        height: 20rem;
+        
+        
+    }
+
+    .logo{
+        margin-left: 30rem;
+    }
+
+    .main-madera{
+        margin-top: 25rem;
+        margin-left: 2px;
+
+    }
+
+    .imagen-madera{
+        height: 25rem;
+        margin-left: 3rem;
+    }
+
+    .subtitulo-madera{
+        margin-left: -8rem;
+
+    }
+
+    .parrafo-madera{
+        width: 35rem;
+    }
+
+    .articulo-flotante{
+        margin-top: 5rem;
+    }
+
+    .subtitulo-flotante{
+        margin-left: -10rem;
+    }
+
+    .parrafo-flotante{
+        width: 35rem;
+    }
+
+    .titulo-flotante{
+        margin-left: -12rem;
+    }
+
+    .imagen-flotante{
+        margin-left: -14rem;
+    }
+
+    .pie-de-pagina{
+        width: 75rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .header{
+        width: 73rem;
+        margin-bottom: 20rem;
+        
+        
+    }
+
+    .lista{
+        height: 20rem;
+        border-bottom: 0.5rem solid #ECB159 ;
+    }
+
+    .logo{
+        margin-left: 30rem;
+    }
+
+    .main-madera{
+        margin-top: 25rem;
+
+    }
+
+    .subtitulo-madera{
+        margin-left: -8rem;
+
+    }
+
+    .parrafo-madera{
+        width: 35rem;
+    }
+
+    .articulo-flotante{
+        margin-top: 5rem;
+    }
+
+    .subtitulo-flotante{
+        margin-left: -10rem;
+    }
+
+    .parrafo-flotante{
+        width: 35rem;
+    }
+
+    .titulo-flotante{
+        margin-left: -12rem;
+    }
+
+    .imagen-flotante{
+        margin-left: -14rem;
+    }
+
+    .pie-de-pagina{
+        width: 75rem;
+    }
+
+    .logo-pie{
+        width: 10rem;
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    
+    
+    .header{
+        width: 75rem;
+        margin-bottom: 12rem;
+        margin-left: 2rem;
+        
+    }
+
+    
+    .pie-de-pagina{
+        width: 85rem;
+    }
+
+
+    .whatsap{
+        margin-left: 15px;
+    }
+    .logo-pie{
+        margin-right: -3rem;
+    }
+
+   
+}
